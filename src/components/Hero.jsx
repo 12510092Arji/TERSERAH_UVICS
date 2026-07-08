@@ -23,11 +23,11 @@ export default function Hero() {
           </span>
           <h1 className="max-w-4xl font-display text-5xl font-semibold leading-[1.02] sm:text-6xl md:text-7xl lg:text-8xl">
             Danau tiga warna<br />
-            <span className="italic text-aqua">di jantung Minahasa.</span>
+            <span className="italic text-aqua">the inside Tomohon.</span>
           </h1>
           <p className="mt-6 max-w-xl text-base text-porcelain/85 sm:text-lg">
-            Lahir dari aktivitas vulkanik Gunung Mahawu — permukaan Linow berganti warna sepanjang hari,
-            dijaga masyarakat setempat sebagai warisan alam Minahasa.
+            Lahir dari aktivitas vulkanik Gunung Mahawu — permukaan Linow dapat berganti warna sepanjang hari,
+            dijaga masyarakat setempat sebagai warisan alam Kota Tomohon.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#sejarah" className="rounded-full bg-jasmine px-6 py-3 text-sm font-semibold text-graphite hover:bg-jasmine/90 transition">Mulai Perjalanan</a>
