@@ -12,12 +12,12 @@ import {
 export default function Pengalaman() {
   const items = [
     { title: "Tiket Masuk", caption: "Rp 35.000/orang — retribusi berputar di kawasan.", img: IMG_HERO },
-    { title: "Cafe Tepi Danau", caption: "Kopi Tomohon menghadap air toska.", img: IMG_CAFE },
+    { title: "Cafe Tepi Danau", caption: "Nongkrong sambil menikmati keindahan Danau.", img: IMG_CAFE },
     { title: "Linow Resort", caption: "Menginap di tepi kaldera vulkanik.", img: IMG_RESORT },
     { title: "Area Camping", caption: "Bangun pagi disambut kabut belerang.", img: IMG_CAMP },
     { title: "Pemandu Lokal", caption: "Warga Lahendong bercerita tentang tanahnya.", img: IMG_COMMUNITY },
-    { title: "Panada Cakalang", caption: "Sarapan khas Minahasa di meja UMKM.", img: IMG_PANADA },
-    { title: "Cucur Gula Merah", caption: "Manis lembut, resep turun-temurun.", img: IMG_CUCUR },
+    { title: "Panada Cakalang", caption: "Kue khas Minahasa di meja UMKM.", img: IMG_PANADA },
+    { title: "Cucur Gula Merah", caption: "Kue tradisional Manis lembut, resep turun-temurun.", img: IMG_CUCUR },
     { title: "Sunset Linow", caption: "Langit jingga memantul di permukaan sulfur.", img: IMG_SUNSET },
   ];
 
@@ -25,7 +25,7 @@ export default function Pengalaman() {
   const loop = [...items, ...items];
 
   return (
-    <section id="pengalaman" className="bg-porcelain py-24 sm:py-28 overflow-hidden">
+    <section id="pengalaman" className="bg-[#F5EFE0] py-24 sm:py-28 overflow-hidden">
       <style>{`
         @keyframes linow-marquee {
           from { transform: translateX(0); }

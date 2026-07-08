@@ -12,18 +12,18 @@ export default function Dampak() {
   const tiles = [
     {
       img: IMG_COMMUNITY,
-      tag: "Komunitas",
-      text: "80+ warga Lahendong bekerja langsung sebagai penjaga, pemandu, dan pengelola kawasan.",
+      tag: "SDM",
+      text: "80+ warga Lahendong bekerja langsung sebagai penjaga, pemandu, pedagang, dan pengelola kawasan Danau Linow.",
     },
     {
       img: IMG_CRAFT,
       tag: "UMKM",
-      text: "Kue cucur, panada, kopi, dan cinderamata diproduksi oleh kelompok wanita sekitar danau.",
+      text: "Kue cucur, panada, dan berbagai hidangan khas Minahasa dijual di cafe Danau Linow.",
     },
     {
       img: IMG_BIRD,
       tag: "Satwa",
-      text: "Kawasan menjadi rumah bagi burung endemik Sulawesi — dilindungi bersama warga.",
+      text: "Danau Linow menjadi habitat burung belibis yang menjadi satwa endemik.",
     },
     {
       img: IMG_SULFUR,
@@ -33,7 +33,7 @@ export default function Dampak() {
     {
       img: IMG_BOAT,
       tag: "Wisata Sadar",
-      text: "Aktivitas di tepi air dibatasi agar keseimbangan kimia danau tetap terjaga.",
+      text: "Aktivitas di tepi air danau linow dibatasi agar keseimbangan kimia danau tetap terjaga.",
     },
     {
       img: IMG_SUNSET,
@@ -48,7 +48,7 @@ export default function Dampak() {
   ];
 
   return (
-    <section id="dampak" className="relative bg-graphite py-24 sm:py-28 overflow-hidden text-porcelain">
+    <section id="dampak" className="relative bg-[#8FBFA8] py-24 sm:py-28 overflow-hidden text-porcelain">
       <style>{`
         @keyframes linow-rise {
           from { opacity: 0; transform: translateY(40px) scale(0.96); }
@@ -117,9 +117,8 @@ export default function Dampak() {
               >
                 {/* floating image */}
                 <div
-                  className={`absolute inset-0 transition duration-700 group-hover:scale-110 ${
-                    i % 2 === 0 ? "linow-float" : "linow-float linow-float-delay-1"
-                  }`}
+                  className={`absolute inset-0 transition duration-700 group-hover:scale-110 ${i % 2 === 0 ? "linow-float" : "linow-float linow-float-delay-1"
+                    }`}
                 >
                   <img
                     src={t.img}

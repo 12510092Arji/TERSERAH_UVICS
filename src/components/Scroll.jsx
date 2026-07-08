@@ -15,7 +15,7 @@ function getVariants(direction) {
     };
 }
 
-export function Scroll({ children, className, delay = 0, direction = "up", id }) {
+export function Scroll({ children, className, delay = 1, direction = "up", id }) {
     return (
         <motion.div
             id={id}
