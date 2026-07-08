@@ -20,7 +20,6 @@ export default function Nav() {
           <a href="#pengalaman" className="hover:text-jasmine transition">Pengalaman</a>
           <a href="#dampak" className="hover:text-jasmine transition">Dampak</a>
         </div>
-        </a>
       </nav>
     </header>
   )
