@@ -48,7 +48,7 @@ export default function Dampak() {
   ];
 
   return (
-    <section id="dampak" className="relative bg-[#8FBFA8] py-24 sm:py-28 overflow-hidden text-porcelain">
+    <section id="dampak" className="relative bg-[#1A3A34] py-24 sm:py-28 overflow-hidden text-porcelain">
       <style>{`
         @keyframes linow-rise {
           from { opacity: 0; transform: translateY(40px) scale(0.96); }

@@ -4,7 +4,6 @@ import Sejarah from './components/Sejarah.jsx'
 import Fenomena from './components/Fenomena.jsx'
 import Pengalaman from './components/Pengalaman.jsx'
 import Dampak from './components/Dampak.jsx'
-import Kunjungi from './components/Kunjungi.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -16,7 +15,6 @@ export default function App() {
       <Fenomena />
       <Pengalaman />
       <Dampak />
-      <Kunjungi />
       <Footer />
     </main>
   )
