@@ -19,10 +19,7 @@ export default function Nav() {
           <a href="#fenomena" className="hover:text-jasmine transition">Fenomena</a>
           <a href="#pengalaman" className="hover:text-jasmine transition">Pengalaman</a>
           <a href="#dampak" className="hover:text-jasmine transition">Dampak</a>
-          <a href="#kunjungi" className="hover:text-jasmine transition">Kunjungi</a>
         </div>
-        <a href="#kunjungi" className="hidden md:inline-flex items-center rounded-full bg-jasmine px-4 py-2 text-sm font-medium text-graphite hover:bg-jasmine/90 transition">
-          Rencanakan Kunjungan
         </a>
       </nav>
     </header>
