@@ -38,8 +38,7 @@ export default function Footer() {
               <li><a href="#sejarah" className="hover:text-jasmine">Sejarah Danau Linow</a></li>
               <li><a href="#fenomena" className="hover:text-jasmine">Fenomena Tiga Warna</a></li>
               <li><a href="#pengalaman" className="hover:text-jasmine">Pengalaman Wisata</a></li>
-              <li><a href="#edukasi" className="hover:text-jasmine">Edukasi & Tanggung Jawab</a></li>
-              <li><a href="#kunjungi" className="hover:text-jasmine">Rencanakan Kunjungan</a></li>
+              <li><a href="#edukasi" className="hover:text-jasmine">Dampak</a></li>
             </ul>
           </div>
           <div className="text-sm">
