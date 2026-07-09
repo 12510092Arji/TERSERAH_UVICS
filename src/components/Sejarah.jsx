@@ -14,7 +14,7 @@ export default function Sejarah() {
   return (
       <section id="sejarah" className="relative bg-[#F5EFE0] py-24 sm:py-32">
         <div className="container-x grid gap-14 lg:grid-cols-2 lg:items-center">
-          <Scroll direction="right" delay={0.4} id="fenomena">
+          <Scroll direction="right" delay={0.4} id="sejarah">
           <div>
             <span className="text-xs uppercase tracking-[0.25em] text-teal">Sejarah</span>
             <h2 className="mt-3 font-display text-4xl font-semibold text-graphite sm:text-5xl">
@@ -35,7 +35,7 @@ export default function Sejarah() {
           </div>
           </Scroll>
 
-          <Scroll direction="left" delay={0.4} id="fenomena">
+          <Scroll direction="left" delay={0.4} id="sejarah">
           <div className="flex justify-end w-full">
             <div className="group overflow-hidden rounded-2xl bg-teal max-w-[440px] w-full shadow-lg transition-all duration-300 hover:shadow-xl">
               
