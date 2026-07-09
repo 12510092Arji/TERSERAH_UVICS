@@ -7,6 +7,7 @@ import {
   IMG_SUNSET,
   IMG_GEOTHERMAL,
 } from "../images.js";
+import { Scroll } from "./Scroll";
 
 export default function Dampak() {
   const tiles = [
@@ -48,8 +49,9 @@ export default function Dampak() {
   ];
 
   return (
-    <section id="dampak" className="relative bg-[#1A3A34] py-24 sm:py-28 overflow-hidden text-porcelain">
-      <style>{`
+    <Scroll direction="down">
+      <section id="dampak" className="relative bg-[#1A3A34] py-24 sm:py-28 overflow-hidden text-porcelain">
+        <style>{`
         @keyframes linow-rise {
           from { opacity: 0; transform: translateY(40px) scale(0.96); }
           to   { opacity: 1; transform: translateY(0) scale(1); }
@@ -92,72 +94,73 @@ export default function Dampak() {
         }
       `}</style>
 
-      {/* glow background */}
-      <div className="pointer-events-none absolute -top-32 left-1/2 h-[28rem] w-[70%] -translate-x-1/2 rounded-full bg-teal/15 blur-[120px]" />
+        {/* glow background */}
+        <div className="pointer-events-none absolute -top-32 left-1/2 h-[28rem] w-[70%] -translate-x-1/2 rounded-full bg-teal/15 blur-[120px]" />
 
-      <div className="container-x relative">
-        <div className="max-w-2xl">
-          <span className="text-xs uppercase tracking-[0.25em] text-jasmine">Dampak</span>
-          <h2 className="mt-3 font-display text-4xl font-semibold sm:text-5xl md:text-6xl">
-            Jejak baik yang tumbuh di tepi Linow.
-          </h2>
-        </div>
+        <div className="container-x relative">
+          <div className="max-w-2xl">
+            <span className="text-xs uppercase tracking-[0.25em] text-jasmine">Dampak</span>
+            <h2 className="mt-3 font-display text-4xl font-semibold sm:text-5xl md:text-6xl">
+              Jejak baik yang tumbuh di tepi Linow.
+            </h2>
+          </div>
 
-        <div className="mt-14 grid auto-rows-[260px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {tiles.map((t, i) => {
-            const wide = i === 0 || i === 3;
-            return (
-              <figure
-                key={i}
-                className={`
+          <div className="mt-14 grid auto-rows-[260px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {tiles.map((t, i) => {
+              const wide = i === 0 || i === 3;
+              return (
+                <figure
+                  key={i}
+                  className={`
                   linow-rise group relative overflow-hidden rounded-2xl border border-white/10 bg-graphite shadow-lg
                   ${wide ? "sm:col-span-2" : ""}
                 `}
-                style={{ animationDelay: `${i * 120}ms` }}
-              >
-                {/* floating image */}
-                <div
-                  className={`absolute inset-0 transition duration-700 group-hover:scale-110 ${i % 2 === 0 ? "linow-float" : "linow-float linow-float-delay-1"
-                    }`}
+                  style={{ animationDelay: `${i * 120}ms` }}
                 >
-                  <img
-                    src={t.img}
-                    alt={t.tag}
-                    loading="lazy"
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-
-                {/* gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10" />
-
-                {/* shimmer hover */}
-                <div className="absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100 linow-card-shimmer" />
-
-                {/* glow ring */}
-                <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10 group-hover:ring-jasmine/40 transition duration-500" />
-
-                <figcaption className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
-                  <div className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-jasmine" />
-                    <span className="text-[10px] uppercase tracking-[0.25em] text-jasmine">
-                      {t.tag}
-                    </span>
+                  {/* floating image */}
+                  <div
+                    className={`absolute inset-0 transition duration-700 group-hover:scale-110 ${i % 2 === 0 ? "linow-float" : "linow-float linow-float-delay-1"
+                      }`}
+                  >
+                    <img
+                      src={t.img}
+                      alt={t.tag}
+                      loading="lazy"
+                      className="h-full w-full object-cover"
+                    />
                   </div>
-                  <p className="mt-2 max-w-md text-sm leading-relaxed text-porcelain/90">
-                    {t.text}
-                  </p>
-                </figcaption>
 
-                {/* corner index */}
-                <div className="absolute right-4 top-4 font-display text-3xl text-white/10 group-hover:text-jasmine/30 transition duration-500">
-                  0{i + 1}
-                </div>
-              </figure>
-            );
-          })}
+                  {/* gradient overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10" />
+
+                  {/* shimmer hover */}
+                  <div className="absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100 linow-card-shimmer" />
+
+                  {/* glow ring */}
+                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10 group-hover:ring-jasmine/40 transition duration-500" />
+
+                  <figcaption className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
+                    <div className="flex items-center gap-2">
+                      <span className="h-1.5 w-1.5 rounded-full bg-jasmine" />
+                      <span className="text-[10px] uppercase tracking-[0.25em] text-jasmine">
+                        {t.tag}
+                      </span>
+                    </div>
+                    <p className="mt-2 max-w-md text-sm leading-relaxed text-porcelain/90">
+                      {t.text}
+                    </p>
+                  </figcaption>
+
+                  {/* corner index */}
+                  <div className="absolute right-4 top-4 font-display text-3xl text-white/10 group-hover:text-jasmine/30 transition duration-500">
+                    0{i + 1}
+                  </div>
+                </figure>
+              );
+            })}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </Scroll>
   );
 }
