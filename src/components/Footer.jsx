@@ -45,7 +45,8 @@ export default function Footer() {
           </div>
           <div className="text-sm">
             <div className="mb-4 text-[11px] uppercase tracking-[0.25em] text-porcelain/50">Kredit</div>
-            <p className="text-porcelain/60 leading-relaxed">Foto Danau Linow: <span className="text-porcelain/80">Wikimedia Commons</span> — Lake Linow 2020, Danu Linow, Belerang Linow, Beautiful Sunset in Linow Lake, KITLV / Tropenmuseum. Kuliner: Panada & Kue Cucur (Wikimedia Commons). Ilustrasi fasilitas: Unsplash.</p>
+            <p className="text-porcelain/60 leading-relaxed">Foto Danau Linow: <span className="text-porcelain/80">@danau.linow dan @danaulinowresort - digunakan dengan izin pengelola.</p>
+              <p className="text-porcelain/60 leading-relaxed">Foto Pendukung: <span className="text-porcelain/80">Wikipedia, dilisensikan CC BY-SA.</p>
             <p className="mt-4 text-porcelain/60">Semua konten dikurasi untuk keperluan edukatif kompetisi.</p>
           </div>
         </div>
