@@ -49,7 +49,7 @@ export default function Dampak() {
   ];
 
   return (
-    <Scroll direction="down">
+    <Scroll direction="right">
       <section id="dampak" className="relative bg-[#1A3A34] py-24 sm:py-28 overflow-hidden text-porcelain">
         <style>{`
         @keyframes linow-rise {

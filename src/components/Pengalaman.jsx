@@ -46,8 +46,8 @@ export default function Pengalaman() {
               </h2>
             </div>
             <p className="max-w-md text-graphite/70">
-              Setiap frame menggerakkan ekonomi lokal — dari kafe, resort,
-              camping, hingga meja UMKM kue khas Minahasa.
+              Setiap frame menggerakkan ekonomi lokal — dari coffee shop, Restaurant,
+              campground, UMKM kue khas Minahasa.
             </p>
           </div>
         </div>
