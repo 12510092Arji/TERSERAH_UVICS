@@ -1,16 +1,17 @@
 // Gambar autentik dan ilustrasi untuk komponen Linow Lake.
 // Foto Danau Linow berasal dari Wikimedia Commons (CC BY-SA).
 // Ilustrasi fasilitas dari Unsplash (lisensi bebas).
-
+import IMG_SUNSET_FILE from "./assets/Danau Kuning emas.webp";
+import IMG_MIDDAY_FILE from "./assets/Danau Hijau Zambrut.webp";
 // ===== HERO & FENOMENA =====
 export const IMG_HERO =
   "https://upload.wikimedia.org/wikipedia/commons/a/a6/Lake_Linow_2020.jpg";
 export const IMG_MORNING =
   "https://upload.wikimedia.org/wikipedia/commons/1/14/Danu_Linow.jpg";
 export const IMG_MIDDAY =
-  "https://upload.wikimedia.org/wikipedia/commons/a/a6/Lake_Linow_2020.jpg";
+  IMG_MIDDAY_FILE;
 export const IMG_SUNSET =
-  "https://upload.wikimedia.org/wikipedia/commons/e/ea/Beautiful_sunset_in_Linow_Lake%2C_Tondano.jpg";
+    IMG_SUNSET_FILE;
 export const IMG_SULFUR =
   "https://upload.wikimedia.org/wikipedia/commons/a/a1/Belerang_Linow.jpg";
 

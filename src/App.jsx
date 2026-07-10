@@ -8,7 +8,7 @@ import Footer from './components/Footer.jsx'
 
 export default function App() {
   return (
-    <main className="bg-porcelain text-graphite">
+    <main className="bg-[#F5EFE0] text-graphite">
       <Nav />
       <Hero />
       <Sejarah />
