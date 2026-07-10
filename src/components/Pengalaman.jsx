@@ -3,7 +3,6 @@ import {
   IMG_CAFE,
   IMG_RESORT,
   IMG_CAMP,
-  IMG_COMMUNITY,
   IMG_PANADA,
   IMG_CUCUR,
   IMG_SUNSET,
@@ -16,7 +15,6 @@ export default function Pengalaman() {
     { title: "Cafe Tepi Danau", caption: "Nongkrong sambil menikmati keindahan Danau.", img: IMG_CAFE },
     { title: "Linow Resort", caption: "Menginap di tepi kaldera vulkanik.", img: IMG_RESORT },
     { title: "Area Camping", caption: "Bangun pagi disambut kabut belerang.", img: IMG_CAMP },
-    { title: "Pemandu Lokal", caption: "Warga Lahendong bercerita tentang tanahnya.", img: IMG_COMMUNITY },
     { title: "Panada Cakalang", caption: "Kue khas Minahasa di meja UMKM.", img: IMG_PANADA },
     { title: "Cucur Gula Merah", caption: "Kue tradisional Manis lembut, resep turun-temurun.", img: IMG_CUCUR },
     { title: "Sunset Linow", caption: "Langit jingga memantul di permukaan sulfur.", img: IMG_SUNSET },
@@ -26,7 +24,7 @@ export default function Pengalaman() {
   const loop = [...items, ...items];
 
   return (
-    <Scroll direction="right">
+    <Scroll direction="left">
       <section id="pengalaman" className="bg-[#F5EFE0] py-24 sm:py-28 overflow-hidden">
         <style>{`
         @keyframes linow-marquee {
@@ -53,7 +51,7 @@ export default function Pengalaman() {
             </div>
             <p className="max-w-md text-graphite/70">
               Setiap frame menggerakkan ekonomi lokal — dari loket, kafe, resort,
-              camping, pemandu, hingga meja UMKM kue khas Minahasa.
+              camping, hingga meja UMKM kue khas Minahasa.
             </p>
           </div>
         </div>

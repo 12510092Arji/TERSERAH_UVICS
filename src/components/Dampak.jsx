@@ -14,7 +14,7 @@ export default function Dampak() {
     {
       img: IMG_COMMUNITY,
       tag: "SDM",
-      text: "80+ warga Lahendong bekerja langsung sebagai penjaga, pemandu, pedagang, dan pengelola kawasan Danau Linow.",
+      text: "80+ warga Lahendong bekerja langsung sebagai penjaga, pedagang, dan pengelola kawasan Danau Linow.",
     },
     {
       img: IMG_CRAFT,
