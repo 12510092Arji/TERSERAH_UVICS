@@ -33,8 +33,8 @@ export default function Dampak() {
     },
     {
       img: IMG_BOAT,
-      tag: "Wisata Sadar",
-      text: "Aktivitas di tepi air danau linow dibatasi agar keseimbangan kimia danau tetap terjaga.",
+      tag: "Pameran Kerajinan Tangan",
+      text: "Berbagai macam kerajinan tangan dipamerkan untuk mendukung ekonomi kreatif lokal.",
     },
     {
       img: IMG_SUNSET,
