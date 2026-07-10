@@ -1,23 +1,19 @@
 import {
-  IMG_HERO,
   IMG_CAFE,
   IMG_RESORT,
   IMG_CAMP,
   IMG_PANADA,
-  IMG_CUCUR,
   IMG_SUNSET,
 } from "../images.js";
 import { Scroll } from "./Scroll";
 
 export default function Pengalaman() {
   const items = [
-    { title: "Tiket Masuk", caption: "Rp 35.000/orang — retribusi berputar di kawasan.", img: IMG_HERO },
-    { title: "Cafe Tepi Danau", caption: "Nongkrong sambil menikmati keindahan Danau.", img: IMG_CAFE },
-    { title: "Linow Resort", caption: "Menginap di tepi kaldera vulkanik.", img: IMG_RESORT },
-    { title: "Area Camping", caption: "Bangun pagi disambut kabut belerang.", img: IMG_CAMP },
-    { title: "Panada Cakalang", caption: "Kue khas Minahasa di meja UMKM.", img: IMG_PANADA },
-    { title: "Cucur Gula Merah", caption: "Kue tradisional Manis lembut, resep turun-temurun.", img: IMG_CUCUR },
-    { title: "Sunset Linow", caption: "Langit jingga memantul di permukaan sulfur.", img: IMG_SUNSET },
+    { title: "Linow Coffee Shop", caption: "Menikmati hangatnya kopi sambil memandang keindahan Danau.", img: IMG_CAFE },
+    { title: "D-Linow Restaurant", caption: "Menikmati hidangan lezat di tepi kaldera vulkanik.", img: IMG_RESORT },
+    { title: "Danau Linow Resort Campground", caption: "Bangun pagi disambut kabut belerang.", img: IMG_CAMP },
+    { title: "UMKM Lokal", caption: "Menyediakan Kue khas Minahasa dan makanan lokal.", img: IMG_PANADA },
+    { title: "Spot Foto di Tepi Danau", caption: "Tempat yang instagramable untuk mengabadikan momen.", img: IMG_SUNSET },
   ];
 
   // Duplikasi untuk loop marquee tanpa jeda.
@@ -50,7 +46,7 @@ export default function Pengalaman() {
               </h2>
             </div>
             <p className="max-w-md text-graphite/70">
-              Setiap frame menggerakkan ekonomi lokal — dari loket, kafe, resort,
+              Setiap frame menggerakkan ekonomi lokal — dari kafe, resort,
               camping, hingga meja UMKM kue khas Minahasa.
             </p>
           </div>

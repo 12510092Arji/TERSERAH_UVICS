@@ -23,8 +23,8 @@ export default function Fenomena() {
     <section id="fenomena" className="relative overflow-hidden bg-graphite py-24 text-porcelain sm:py-32 transition-colors duration-1000">
       <div className="absolute inset-0 bg-[#121212] opacity-80 z-0" />
 
-      <div 
-        className={`absolute inset-0 ${colors[activeIndex].bgClass} opacity-15 mix-blend-screen transition-all duration-1000 ease-in-out z-0 blur-[80px]`} 
+      <div
+        className={`absolute inset-0 ${colors[activeIndex].bgClass} opacity-15 mix-blend-screen transition-all duration-1000 ease-in-out z-0 blur-[80px]`}
       />
 
       <div className="container-x relative z-10">
@@ -34,28 +34,27 @@ export default function Fenomena() {
             Air yang berubah warna sepanjang <span className="text-aqua italic">perjalanan matahari</span>.
           </h2>
         </div>
-        
+
         <Scroll direction="left" delay={0.2} id="fenomena">
           <div className="mt-14 grid gap-6 sm:grid-cols-3 w-full">
             {colors.map((c, i) => {
               const isActive = i === activeIndex
               return (
-                <figure 
-                  key={c.name} 
-                  className={`group relative flex h-full flex-col overflow-hidden rounded-xl border bg-white/[0.02] backdrop-blur-sm transition-all duration-700 ${
-                    isActive ? 'border-white/40 -translate-y-1 bg-white/[0.05] shadow-lg' : 'border-white/10'
-                  }`}
+                <figure
+                  key={c.name}
+                  className={`group relative flex h-full flex-col overflow-hidden rounded-xl border bg-white/[0.02] backdrop-blur-sm transition-all duration-700 ${isActive ? 'border-white/40 -translate-y-1 bg-white/[0.05] shadow-lg' : 'border-white/10'
+                    }`}
                 >
                   <div className="relative aspect-video w-full overflow-hidden shrink-0">
                     <img src={c.img} alt={`Danau Linow saat ${c.time.toLowerCase()}`} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-black/10 to-transparent" />
-                    
+
                     <div className="absolute top-3 left-3 flex items-center gap-1.5 rounded-full bg-black/60 px-2.5 py-1 text-[10px] font-medium uppercase tracking-wider text-porcelain backdrop-blur-md z-10">
                       <span className="h-1.5 w-1.5 rounded-full animate-pulse" style={{ backgroundColor: c.hex }} />
                       {c.time}
                     </div>
                   </div>
-                  
+
                   <figcaption className="flex flex-1 flex-col p-5">
                     <div className="font-display text-xl font-semibold tracking-wide">{c.name}</div>
                     <p className="mt-2 text-xs leading-relaxed text-porcelain/60">{c.desc}</p>
@@ -81,10 +80,10 @@ export default function Fenomena() {
               </div>
             </div>
             <div className="overflow-hidden rounded-xl">
-              <img 
-                src={IMG_SULFUR} 
-                alt="Endapan belerang di tepi Danau Linow" 
-                className="h-full w-full object-cover transition duration-700 group-hover:scale-105" 
+              <img
+                src={IMG_SULFUR}
+                alt="Endapan belerang di tepi Danau Linow"
+                className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
               />
             </div>
           </div>
