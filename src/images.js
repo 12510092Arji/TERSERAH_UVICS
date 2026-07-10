@@ -24,7 +24,7 @@ export const IMG_MORNING =
 export const IMG_MIDDAY =
   IMG_MIDDAY_FILE;
 export const IMG_SUNSET =
-    IMG_SUNSET_FILE;
+  IMG_SUNSET_FILE;
 export const IMG_SULFUR =
   "https://upload.wikimedia.org/wikipedia/commons/a/a1/Belerang_Linow.jpg";
 
