@@ -3,11 +3,12 @@
 // Ilustrasi fasilitas dari Unsplash (lisensi bebas).
 import IMG_SUNSET_FILE from "./assets/Danau Kuning emas.webp";
 import IMG_MIDDAY_FILE from "./assets/Danau Hijau Zambrut.webp";
+import IMG_MORNING_FILE from "./assets/Danau Toska.webp";
 // ===== HERO & FENOMENA =====
 export const IMG_HERO =
   "https://upload.wikimedia.org/wikipedia/commons/a/a6/Lake_Linow_2020.jpg";
 export const IMG_MORNING =
-  "https://upload.wikimedia.org/wikipedia/commons/1/14/Danu_Linow.jpg";
+  IMG_MORNING_FILE;
 export const IMG_MIDDAY =
   IMG_MIDDAY_FILE;
 export const IMG_SUNSET =
